@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: dg-first-iot
+  host: dg-first-iot
+  disk_quota: 1024M
+  services:
+  - dg-first-iot-cloudantNoSQLDB
+  - dg-first-iot-iotf-service
